@@ -163,18 +163,6 @@ brew install java
 ./mvnw clean compile exec:java
 ```
 
-### Mac: Build standalone JAR and EXE
-
-```bash
-./mvnw clean package
-```
-
-The following warning can occur. You can ignore it.
-
-```log
-[WARNING] Failed to build parent project for org.openjfx:javafx-...:jar:17
-```
-
 </details>
 
 ## Run standalone JAR
